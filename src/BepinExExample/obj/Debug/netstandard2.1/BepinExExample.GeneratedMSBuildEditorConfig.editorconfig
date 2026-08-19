@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = CrowdControl
+build_property.ProjectDir = E:\CrowdControl\CCPack\CCPack-PC-PlanetOfLana\src\BepinExExample\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
