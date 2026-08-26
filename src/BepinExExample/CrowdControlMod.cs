@@ -1,4 +1,4 @@
-﻿using BepInEx;
+using BepInEx;
 using BepInEx.Logging;
 using BepInEx.Unity.IL2CPP;
 using CrowdControl.Delegates.Effects;
@@ -21,7 +21,7 @@ public class CrowdControlMod : BasePlugin
     // csproj - the DLL name is set separately via the GameName property in BepinExExample.csproj)
     public const string MOD_GUID = "WarpWorld.CrowdControl"; //unique BepInEx plugin ID - fine to leave as-is since only one Crowd Control mod is installed per game
     public const string MOD_NAME = "Crowd Control for Planet of Lana"; //display name shown in the BepInEx log - put your game's name here
-    public const string MOD_VERSION = "1.0.0.0"; //bump this with each release of your mod
+    public const string MOD_VERSION = "1.0.2"; //bump this with each release of your mod
 
     /// <summary>The real-time duration of the current tick, used to advance timed effect countdowns.</summary>
     /// <remarks>
