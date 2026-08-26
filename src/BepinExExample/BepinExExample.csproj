@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   
   <PropertyGroup>
     <!-- ALWAYS SET THESE FOR A NEW GAME! -->
@@ -44,9 +44,6 @@
 	  <Reference Include="BepInEx">
 	  <HintPath>$(GameBaseDir)\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
     </Reference>
-	  <Reference Include="BepInEx">
-		  <HintPath>$(GameBaseDir)\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
-	  </Reference>
 	  <Reference Include="PoL.Game.Runtime">
 		  <HintPath>$(GameAssemblyDir)\PoL.Game.Runtime.dll</HintPath>
 	  </Reference>
@@ -61,9 +58,6 @@
 	  </Reference>
 	  <Reference Include="Il2Cppmscorlib">
 		  <HintPath>$(GameAssemblyDir)\Il2Cppmscorlib.dll</HintPath>
-	  </Reference>
-	  <Reference Include="PoL.Game.Runtime">
-		  <HintPath>$(GameAssemblyDir)\PoL.Game.Runtime.dll</HintPath>
 	  </Reference>
 	  <Reference Include="Southgrove.Runtime">
 		  <HintPath>$(GameAssemblyDir)\Southgrove.Runtime.dll</HintPath>
