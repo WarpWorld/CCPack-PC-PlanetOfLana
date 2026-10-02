@@ -1,5 +1,12 @@
 # Planet of Lana
 
+## Pack metadata
+
+- **Game:** Planet of Lana
+- **Crowd Control game ID:** `PlanetOfLana`
+- **Connector:** `SimpleTCPServerConnector`
+- **Port:** `51337`
+
 This folder contains the C# Crowd Control pack definition and supporting source for **Planet of Lana**.
 
 ## Connector and setup
