@@ -23,7 +23,7 @@ public class PlanetOfLana : SimpleTCPPack<SimpleTCPServerConnector>
 
     public override ushort Port => 51337;
 
-    public override EffectList Effects => new Effect[]
+    public override EffectList Effects { get; } = new Effect[]
     {
         new("Kill Lana", "kill_lana")
         {
